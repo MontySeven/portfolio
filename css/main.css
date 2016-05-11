@@ -1,0 +1,108 @@
+/** {
+    border: 1px solid red !important;
+}*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        display: none;
+    }
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    widows: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /*Align centrally*/
+    margin: auto;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.66%;
+    /*to align logo centrally*/
+    margin: auto;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+    /*To align to centre*/
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+    /*To align text to right in this instance*/
+    text-align: right;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+    /*To align to centre*/
+    text-align: center;
+}
+
+h1 {
+    color: #3A3A30;
+}
+
+h2 {
+    color: #BCBBBB;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #3A3A30;
+}
+p{
+    text-align: center;
+}
+a {
+    color: #3A3A30;
+    text-decoration: none;
+}
+img {
+    border: 1px solid #BCBBBB;
+}
